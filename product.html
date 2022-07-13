@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/icon.svg" type="image/png">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<title>Cosinuts | Product</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="logo">
+					<a class="logo__link" href="#">
+						<img class="logo__img" src="images/logo.svg" alt="">
+					</a>
+				</div>
+				<ul class="menu">
+					<li><a class="menu__link" href="index.html">
+							Главная
+						</a></li>
+					<li><a class="menu__link" href="catalog.html">
+							Каталог
+						</a></li>
+					<li><a class="menu__link" href="about-us.html">
+							О нас
+						</a></li>
+					<li><a class="menu__link" href="delivery.html">
+							О доставке
+						</a></li>
+					<li><a class="menu__link" href="shops.html">
+							Магазины
+						</a></li>
+					<li><a class="menu__link" href="contacts.html">
+							Контакты
+						</a></li>
+				</ul>
+				<div class="header__phone">
+					<img class="header__phone-img" src="images/phone.svg" alt="">
+					<a class="header__phone-link" href="tel:+79002323232">+7 (900) 232 32-32</a>
+				</div>
+				<div class="header__menu-btn">
+					<div></div>
+				  </div>
+				<div class="header__favorite">
+					<a class="header__favorite-link" href="#">Избранное</a>
+				</div>
+				<button class="header__basket">
+					<a class="header__basket-link" href="#">
+						Корзина
+					</a>
+					<div class="header__basket-num">3</div>
+				</button>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<main class="main">
+			<section class="product">
+				<div class="container">
+					<a class="product__back" href="catalog.html">Вернуться в каталог</a>
+					<h1 class="product__title">Абрикосы сушенные</h1>
+					<nav class="sidebar">
+						<h2 class="sidebar__title">
+							Категории
+						</h2>
+						<div class="sidebar__buttons">
+							<button class="sidebar__btn" data-filter=".adried">Сухофрукты экзотические</button>
+							<button class="sidebar__btn mixitup-control-active" data-filter=".berry">Ягоды сушеные </button>
+							<button class="sidebar__btn" data-filter=".candied">Цукаты</button>
+							<button class="sidebar__btn" data-filter=".aeastern">Восточные сладости</button>
+							<button class="sidebar__btn" data-filter=".asnacks">Снеки</button>
+							<button class="sidebar__btn" data-filter=".aseeds">Семена и бобовые</button>
+							<button class="sidebar__btn" data-filter=".agrocery">Бакалея</button>
+							<button class="sidebar__btn" data-filter=".candied">Цукаты</button>
+							<button class="sidebar__btn" data-filter=".aeastern">Восточные сладости</button>
+							<button class="sidebar__btn" data-filter=".asnacks">Снеки</button>
+							<button class="sidebar__btn" data-filter=".aseeds">Семена и бобовые</button>
+							<button class="sidebar__btn" data-filter=".agrocery">Бакалея</button>
+						</div>
+					</nav>
+					<div id="root"></div>
+					<div class="product__content">
+						<img class="product__content-img" src="images/product-img.jpg" alt="">
+						<div class="product__content-info">
+							<p class="product__content-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+								вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+							<p class="product__content-price">322.00 Р</p>
+						</div>
+					</div>
+					<div class="product__buttons">
+						<button class="product__btn-wt min">100г</button>
+						<button class="product__btn-wt default active">500г</button>
+						<button class="product__btn-wt max">1000г</button>
+						<button class="product__basket">В корзину</button>
+					</div>
+				</div>
+			</section>
+			<section class="product-related">
+				<div class="container">
+					<h2 class="product-related__title">
+						Сопутствующие товары
+					</h2>
+					<div class="product-related__inner" data-ref="container-1">
+						<div class="product-related__items mix adried">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+						<div class="product-related__items mix berry">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+						<div class="product-related__items mix candied">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+						<div class="product-related__items mix aeastern">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+						<div class="product-related__items mix asnacks">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+						<div class="product-related__items mix aseeds">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+						<div class="product-related__items mix agrocery">
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+							<div class="product-related__item">
+								<a class="product-related__item-link" href="product.html"><img class="product-related__item-img"
+										src="images/catalog-item-img.jpg" alt=""></a>
+								<h3 class="product-related__item-name">Абрикосы сушенные</h3>
+								<p class="product-related__item-text">Свежие Сушенные абрикосы в герметичной упаковке от
+									фирмы</p>
+								<div class="product-related__item-price">
+									<p class="product-related__item-newprice">От 322.00 Р</p>
+									<p class="product-related__item-oldprice">От 450.00 Р</p>
+								</div>
+								<div class="product-related__item-buttons">
+									<a class="product-related__item-compare" href="#"><img src="images/item-compare.svg" alt=""> </a>
+									<a class="product-related__item-search" href="#"><img src="images/item-search.svg" alt=""></a>
+									<a class="product-related__item-favorite" href="#"><img src="images/item-favorite.svg" alt=""></a>
+									<button class="product-related__item-basket">В корзину</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__bottom">
+					<div class="footer__menu">
+						<div class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Главная
+							</a>
+						</div>
+						<div class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Каталог
+							</a>
+						</div>
+						<div class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								О нас
+							</a>
+						</div>
+						<div class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								О доставке
+							</a>
+						</div>
+						<div class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Магазины
+							</a>
+						</div>
+						<div class="footer__menu-item">
+							<a class="footer__menu-link" href="#">
+								Контакты
+							</a>
+						</div>
+					</div>
+					<div class="footer__add">
+						<div class="footer__favorite">
+							<a class="footer__favorite-link" href="#">Избранное</a>
+						</div>
+						<button class="footer__basket">Корзина</button>
+					</div>
+				</div>
+				<div class="footer__inner">
+					<div class="footer__item">
+						<h4 class="footer__item-name">Раздел 1</h4>
+						<a class="footer__item-link" href="#">Сухофрукты</a>
+						<a class="footer__item-link" href="#">Орехи</a>
+						<a class="footer__item-link" href="#">Ягоды сушеные</a>
+						<a class="footer__item-link" href="#">Цукаты</a>
+						<a class="footer__item-link" href="#">Экзотические сухофрукты</a>
+					</div>
+					<div class="footer__item">
+						<h4 class="footer__item-name">Раздел 2</h4>
+						<a class="footer__item-link" href="#">Восточные сладости</a>
+						<a class="footer__item-link" href="#">Семена и бобовые</a>
+						<a class="footer__item-link" href="#">Снеки</a>
+						<a class="footer__item-link" href="#">Бакалея</a>
+						<a class="footer__item-link" href="#">Специи</a>
+					</div>
+					<div class="footer__item">
+						<h4 class="footer__item-name">Раздел 1</h4>
+						<a class="footer__item-link" href="#">Сухофрукты</a>
+						<a class="footer__item-link" href="#">Орехи</a>
+						<a class="footer__item-link" href="#">Ягоды сушеные</a>
+						<a class="footer__item-link" href="#">Цукаты</a>
+						<a class="footer__item-link" href="#">Экзотические сухофрукты</a>
+					</div>
+					<div class="footer__item">
+						<h4 class="footer__item-name">Контакты</h4>
+						<a class="footer__item-phone" href="tel:89933133133"><img src="images/phone.svg" alt="">8 993 313 31 33</a>
+						<a class="footer__item-phone" href="tel:89933133133"><img src="images/phone.svg" alt="">8 993 313 31 33</a>
+						<a class="footer__item-email" href="mailto:Sychofrycti@Gmail.com"><img src="images/email.svg"
+								alt="">Sychofrycti@Gmail.com</a>
+						<div class="footer__item-location"><img src="images/location.svg" alt="">Г. Москва улица кубано набережная
+							56 литер 2</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
